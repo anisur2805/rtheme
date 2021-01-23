@@ -1,0 +1,8 @@
+2021-01-22T16:50:44+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_the_posts_navigation() in /var/www/wp-dev/wp-content/themes/rtheme/index.php:24
+Stack trace:
+#0 /var/www/wp-dev/wp-includes/template-loader.php(106): include()
+#1 /var/www/wp-dev/wp-blog-header.php(19): require_once('/var/www/wp-dev...')
+#2 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#3 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/index.php on line 24
+
