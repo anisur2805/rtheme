@@ -1,7 +1,7 @@
-<?php 
+<?php
 /**
  * Bootstrap for theme
- * 
+ *
  * @package RTheme
  */
 namespace Rtheme\Inc;
@@ -9,16 +9,14 @@ namespace Rtheme\Inc;
 use Rtheme\Inc\Traits\Singleton;
 
 class Rtheme {
-	
-	use Singleton;
-	
-	protected function __construct(){
-		// wp_die("Hello world");
-		$this->set_hooks();
-	}
-	
-	protected static function set_hooks(){
-		// some hook 
-		
-	}
+
+    use Singleton;
+
+    protected function __construct() {
+        Assets::get_instance();
+        $this->setup_hooks();
+    }
+
+	protected function setup_hooks() {
+    }
 }
