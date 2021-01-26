@@ -18,5 +18,10 @@ class Rtheme {
     }
 
 	protected function setup_hooks() {
-    }
+		add_action( 'after_setup_theme', [ $this, 'theme_setup' ] );
+	}
+	
+	public function theme_setup(){
+		add_theme_support( 'title-tag' );
+	}
 }
