@@ -23,5 +23,13 @@ class Rtheme {
 	
 	public function theme_setup(){
 		add_theme_support( 'title-tag' );
+		
+		add_theme_support('custom-logo', [
+			'header-text' => ['site-title', 'site-description'],
+			'width' => 100,
+			'height' => 100,
+			'flex-height' => true,
+			'flex-width' => true
+		]);
 	}
 }
