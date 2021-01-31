@@ -367,3 +367,7 @@ Stack trace:
 [31-Jan-2021 18:05:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-meta-boxes.php on line 53
 [31-Jan-2021 18:07:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-meta-boxes.php on line 53
 [31-Jan-2021 18:09:11 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-meta-boxes.php on line 53
+[31-Jan-2021 19:03:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wp-dev/wp-content/themes/rtheme/template-parts/components/blog/entry-header.php on line 22
+[31-Jan-2021 19:03:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wp-dev/wp-content/themes/rtheme/template-parts/components/blog/entry-header.php on line 22
+[31-Jan-2021 19:04:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wp-dev/wp-content/themes/rtheme/template-parts/components/blog/entry-header.php on line 22
+[31-Jan-2021 19:04:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wp-dev/wp-content/themes/rtheme/template-parts/components/blog/entry-header.php on line 22

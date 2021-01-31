@@ -46,8 +46,7 @@ get_header();
 			else:
 			    get_template_part( 'template-parts/no-content' );
 			endif;
-			get_template_part( 'template-parts/no-content' );
-			
+
 			echo "</main>";
 			echo "</div>";
 
