@@ -23,7 +23,7 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-head" role="banner">
-		<?php get_template_part( 'template-parts/header/nav.php' ); ?>	
+		<?php get_template_part( 'template-parts/header/nav' ); ?>
 	</header>
 
 </div>
