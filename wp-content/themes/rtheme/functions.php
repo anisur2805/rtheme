@@ -17,6 +17,7 @@ if ( !defined( 'RTHEME_DIR_URI' ) ) {
 }
 
 require_once RTHEME_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once RTHEME_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function rtheme_get_theme_instance() {
 	Rtheme::get_instance();

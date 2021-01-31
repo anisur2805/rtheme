@@ -13,3 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: rtheme
 Tags: wordpress, theme
 */
+img {
+	max-width: 100%;
+	height: auto;
+}

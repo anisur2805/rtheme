@@ -7,7 +7,11 @@
 
 ?>
 
-<h2>Footer</h2>
+<footer class="text-center py-4 bg-light footer">
+	<div class="container">
+        <p>&copy;<?php date('Y'); ?> All right reserved.</p>
+	</div>
+</footer>
 
 <?php wp_footer(); ?>
 
