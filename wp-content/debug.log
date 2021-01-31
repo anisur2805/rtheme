@@ -1,0 +1,369 @@
+[31-Jan-2021 16:05:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:05:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp-dev...')
+#7 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:05:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:08:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:08:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:11:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:11:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:12:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:12:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:20:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:20:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:23:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:23:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:27:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:27:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:27:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:27:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp-dev...')
+#7 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:27:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:30:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:30:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:31:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:31:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:31:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:18
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 18
+[31-Jan-2021 16:39:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:39:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp-dev...')
+#7 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:39:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:40:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin.php(34): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/wp-admin/post.php(12): require_once('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:40:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-blog-header.php(13): require_once('/var/www/wp-dev...')
+#7 /var/www/wp-dev/index.php(17): require('/var/www/wp-dev...')
+#8 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:41:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp-dev...')
+#7 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:43:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp-dev...')
+#7 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 16:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Rtheme\Inc\Meta_Boxes' not found in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php:19
+Stack trace:
+#0 /var/www/wp-dev/wp-content/themes/rtheme/inc/traits/trait-singleton.php(19): Rtheme\Inc\Rtheme->__construct()
+#1 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(23): Rtheme\Inc\Rtheme::get_instance()
+#2 /var/www/wp-dev/wp-content/themes/rtheme/functions.php(26): rtheme_get_theme_instance()
+#3 /var/www/wp-dev/wp-settings.php(525): include('/var/www/wp-dev...')
+#4 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
+#5 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
+#6 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp-dev...')
+#7 {main}
+  thrown in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-rtheme.php on line 19
+[31-Jan-2021 18:05:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-meta-boxes.php on line 53
+[31-Jan-2021 18:07:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-meta-boxes.php on line 53
+[31-Jan-2021 18:09:11 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-meta-boxes.php on line 53
