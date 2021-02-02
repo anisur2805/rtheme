@@ -18,9 +18,10 @@ $heading_class = ( ! empty( $hide_title ) && 'yes' === $hide_title) ? 'hide d-no
 <header class="entry-header">
 	<?php
 		if($has_post_thumbnail) {
-			echo '<div class="entry-image mb-3">';
-			echo '<a href="'. esc_url( get_the_permalink() ) .'">'.
-				the_post_custom_thumbnail(
+			echo '<div class="entry-image mb-3">';?>
+
+			<a href="<?php echo esc_url( get_the_permalink() ) ?>">
+				<?php the_post_custom_thumbnail(
 					$the_post_id,
 					'featured-thumbnail',
 					[

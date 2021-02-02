@@ -24,3 +24,7 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.published:not(.update) {
+	display: none;
+}
