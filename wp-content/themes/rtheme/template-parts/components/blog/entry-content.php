@@ -1,25 +1,29 @@
 <?php
 /**
- * Template for Post Content
+ * Template for Single Post Content
  *
  * @package Rtheme
  */
+
+echo ' <div class="entry-content">';
 
 if ( is_single() ) {
     the_content(
         sprintf(
             wp_kses(
-                __( 'Continue reading %s <span class="meta-nav">%rarr;</span>', 'rtheme' ),
+                __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'rtheme' ),
                 [
                     'span' => [
-                        'class' => [],
-                    ],
+                        'class' => []
+                    ]
                 ]
             ),
-            the_title( '<span class="screen-reader-text">"', '"</span>', false )
+            the_title( '<span class="screen-reader-text">', '</span>', false )
         )
     );
 } else {
     rtheme_the_excerpt( 20 );
 	echo rtheme_read_more();
 }
+
+echo '</div>';
