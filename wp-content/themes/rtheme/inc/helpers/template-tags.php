@@ -59,10 +59,37 @@ function rtheme_posted_on() {
 }
 
 // Get post by || Author
-function rtheme_get_author(){
-	$byline = sprintf(
-		esc_html_x(' by %s', 'post author', 'rtheme'),
-		'<span class="author vcard"><a href=" '. esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) .' ">' . esc_html( get_the_author()) . '</a></span>'
-	);
-echo '<span class="">'. $byline .'</span>';
+function rtheme_get_author() {
+    $byline = sprintf(
+        esc_html_x( ' by %s', 'post author', 'rtheme' ),
+        '<span class="author vcard"><a href=" ' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . ' ">' . esc_html( get_the_author() ) . '</a></span>'
+    );
+    echo '<span class="">' . $byline . '</span>';
+}
+
+// Get the excerpt
+function rtheme_the_excerpt( $trim_character_count = 0 ) {
+    if ( !has_excerpt() || 0 === $trim_character_count ) {
+        the_excerpt();
+        return;
+    }
+
+    $excerpt = wp_strip_all_tags( get_the_excerpt() );
+    $excerpt = substr( $excerpt, 0, $trim_character_count );
+    $excerpt = substr( $excerpt, 0, strpos( $excerpt, ' ' ) );
+    $excerpt = substr( $excerpt, 0, strpos( $excerpt, '.' ) );
+
+    echo $excerpt . '[...]';
+
+}
+
+// Read more
+function rtheme_read_more( $more = '' ) {
+    if ( !is_single() ) {
+        $more = sprintf( '<button class="btn btn-info mt-3"><a class="text-white rtheme-read-more" href="%1$s">%2$s</a></button>',
+            get_permalink( get_the_ID() ),
+            __( 'Read More', 'rtheme' )
+        );
+		return $more;
+    }
 }
