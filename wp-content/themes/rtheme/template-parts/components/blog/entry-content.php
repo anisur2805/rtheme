@@ -23,9 +23,9 @@ if ( is_single() ) {
     );
 
 	/**
-	 * This pagination only work
+	 * <p><!--nextpage--></p>
 	 *
-	 * if Gutenburg active
+	 * should use this to work this pagination
 	 */
 wp_link_pages(
     [
