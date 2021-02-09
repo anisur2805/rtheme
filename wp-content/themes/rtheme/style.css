@@ -60,3 +60,9 @@ img {
 .archive-section a.elementor-post__read-more:after {
 	left: 60px;
 }
+
+/* Pagination CSS */
+.page-numbers.current span {
+	background: #777;
+	color: #fff;
+}

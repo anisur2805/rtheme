@@ -20,16 +20,19 @@ get_header();
 				</header>
 			<?php }
 
-while ( have_posts() ): the_post();
+			while ( have_posts() ): the_post();
+				get_template_part( 'template-parts/content' );
+			endwhile;
+		endif;
 
-    get_template_part( 'template-parts/content' );
+		previous_post_link();
+		next_post_link();
 
-endwhile;
+		echo "</div>"; // <!--Container-->
 
-endif;
+	echo "</main>"; // <!--MAIN-->
 
-echo "</main>";
-echo "</div>";
-echo "</div>";
+echo "</div>"; // <!--DIV-->
+
 
 get_footer();

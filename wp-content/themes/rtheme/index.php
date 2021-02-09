@@ -40,14 +40,20 @@ get_header();
 			    }
 			endwhile;
 
+
+
 			echo "</div>"; // !Row
 
 			echo "</div>"; // !Container
-			else:
-			    get_template_part( 'template-parts/no-content' );
-			endif;
 
-			echo "</main>";
-			echo "</div>";
+			// pagination
+			rtheme_pagination();
+
+		else:
+			get_template_part( 'template-parts/no-content' );
+		endif;
+
+			echo "</main>"; // MAIN
+			echo "</div>"; // PRIMARY
 
 get_footer();

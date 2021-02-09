@@ -93,3 +93,22 @@ function rtheme_read_more( $more = '' ) {
 		return $more;
     }
 }
+
+
+// Pagination
+function rtheme_pagination(){
+	$args = [
+		'before_page_number' => '<span class="btn border border-secondary mr-2 mb-2">',
+		'after_page_number' => '</span>'
+	];
+	$allowed_tag = [
+		'span' => [
+			'class'=> []
+		],
+		'a' => [
+			'class'=> [],
+			'href' => []
+		],
+		];
+	printf('<nav class="rtheme-pagination clearfix">%s</nav>', wp_kses( paginate_links( $args), $allowed_tag ) );
+}
