@@ -8,12 +8,16 @@
 ?>
 
 <footer class="text-center py-4 bg-light footer">
-	<div class="container">
-        <p>&copy;<?php date('Y'); ?> All right reserved.</p>
+		<aside class="container">
+	<div class="row">
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ): ?>
+			<?php dynamic_sidebar( 'sidebar-2' )?>
+		<?php endif;?>
 	</div>
+		</aside>
 </footer>
 
-<?php wp_footer(); ?>
+<?php wp_footer();?>
 
 </body>
 </html>
