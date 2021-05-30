@@ -112,6 +112,6 @@ module.exports = (env, argv) => ({
 
     plugins: plugins(argv),
     externals: {
-        jquery: 'jQuery'
+        "jquery": "jQuery"
     }
 });

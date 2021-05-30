@@ -14,13 +14,55 @@ Text Domain: rtheme
 Tags: wordpress, theme
 */
 
-
 .custom-logo-link img {
-    max-height: 80px;
-    width: auto;
-    margin-right: 20px;
+	max-height: 80px;
+	width: auto;
+	margin-right: 20px;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+.published:not(.update) {
+	display: none;
+}
+
+.nav-item.dropdown:not(.show):hover .dropdown-menu {
+	display: block;
+}
+
+.archive-section .elementor-post__text {
+	display: flex;
+	flex-direction: column;
+}
+
+.archive-section .elementor-post__text:nth-of-type(1) h3 {
+	order: 0;
+}
+
+.archive-section .elementor-posts .elementor-post__meta-data {
+	order: 1;
+}
+
+.archive-section .elementor-post__excerpt {
+	order: 2;
+}
+
+.archive-section .elementor-post__text a.elementor-post__read-more {
+	order: 3;
+	display: flex !important;
+	justify-content: center;
+	position: relative;
+}
+
+.archive-section a.elementor-post__read-more:after {
+	left: 60px;
+}
+
+/* Pagination CSS */
+.page-numbers.current span {
+	background: #777;
+	color: #fff;
 }
