@@ -8,7 +8,15 @@
 get_header();
 ?>
 
-<div id="primary">
+
+<div class="clearfix">
+	<?php
+		//get_template_part( 'template-parts/testimonial' );
+	?>
+
+</div>
+
+<div id="primary" >
 	<main id="main" class="site-main mt-5" role="main">
 	<?php if ( have_posts() ): ?>
 		<div class="container">
@@ -53,7 +61,8 @@ get_header();
 			get_template_part( 'template-parts/no-content' );
 		endif;
 
-			echo "</main>"; // MAIN
-			echo "</div>"; // PRIMARY
+		echo "</main>"; // MAIN
+		echo "</div>"; // PRIMARY
+
 
 get_footer();

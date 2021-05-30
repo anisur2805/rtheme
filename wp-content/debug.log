@@ -1,17 +1,8 @@
-[09-Feb-2021 09:27:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/wp-dev/wp-includes/update.php on line 612
-[10-Feb-2021 03:49:43 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/wp-dev/wp-includes/update.php on line 612
-[10-Feb-2021 14:28:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/wp-dev/wp-includes/update.php on line 173
-[10-Feb-2021 16:43:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Rtheme\Inc\Sidebars' does not have a method 'Clock_Widget' in /var/www/wp-dev/wp-includes/class-wp-hook.php on line 287
-[10-Feb-2021 16:45:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'Rtheme\Inc\Rtheme\Inc\Clock_Widget' in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-sidebars.php:49
+[11-Apr-2021 16:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function AR\Academy\Admin\ar_ac_insert_address() in /var/www/wp-dev/wp-content/plugins/ar-academy/includes/Admin/AddressBook.php:40
 Stack trace:
-#0 /var/www/wp-dev/wp-includes/class-wp-hook.php(287): Rtheme\Inc\Sidebars->register_clock_widget('')
-#1 /var/www/wp-dev/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#0 /var/www/wp-dev/wp-includes/class-wp-hook.php(287): AR\Academy\Admin\AddressBook->form_handler('')
+#1 /var/www/wp-dev/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
 #2 /var/www/wp-dev/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
-#3 /var/www/wp-dev/wp-includes/widgets.php(1795): do_action('widgets_init')
-#4 /var/www/wp-dev/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
-#5 /var/www/wp-dev/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
-#6 /var/www/wp-dev/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
-#7 /var/www/wp-dev/wp-settings.php(557): do_action('init')
-#8 /var/www/wp-dev/wp-config.php(92): require_once('/var/www/wp-dev...')
-#9 /var/www/wp-dev/wp-load.php(37): require_once('/var/www/wp-dev...')
-#10 /var/www/wp-dev/wp-admin/admin-ajax.php(22): require_once('/var/www/wp- in /var/www/wp-dev/wp-content/themes/rtheme/inc/classes/class-sidebars.php on line 49
+#3 /var/www/wp-dev/wp-admin/admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in /var/www/wp-dev/wp-content/plugins/ar-academy/includes/Admin/AddressBook.php on line 40

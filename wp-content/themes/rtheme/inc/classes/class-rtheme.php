@@ -19,6 +19,7 @@ class Rtheme {
 		Meta_Boxes::get_instance();
 		Sidebars::get_instance();
 		Clock_Widget::get_instance();
+		Block_Patterns::get_instance();
 
 		$this->setup_hooks();
 
