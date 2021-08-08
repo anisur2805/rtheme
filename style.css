@@ -66,3 +66,14 @@ img {
 	background: #777;
 	color: #fff;
 }
+/* Partner Logos */
+.customRow {
+	display: flex;
+	-moz-column-gap: 20px;
+	     column-gap: 20px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+}
+.customCol {
+    flex: 1 0 calc(33.333% - 40px);
+}

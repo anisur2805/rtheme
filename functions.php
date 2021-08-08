@@ -84,3 +84,5 @@ function owl_enqueue_script() {
 
 add_action('wp_enqueue_scripts', 'owl_enqueue_script' );
 add_action('wp_enqueue_scripts', 'owl_enqueue_style' );
+
+require_once RTHEME_DIR_PATH . '/inc/customizer.php';

@@ -1,6 +1,6 @@
 // import 'jquery';
-import './clock';
-import './single';
+// import './clock';
+// import './single';
 
 // Image
-import '../img/cat.jpg';
+// import '../img/cat.jpg';

@@ -63,6 +63,9 @@ get_header();
 
 		echo "</main>"; // MAIN
 		echo "</div>"; // PRIMARY
-
+	
+	// Partner Logo 
+	get_template_part("template-parts/partner", "logos");
+	// get_template_part( 'template-parts/content', get_post_format() );
 
 get_footer();
