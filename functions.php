@@ -5,7 +5,7 @@
  * @package RTheme
  */
 
-// use Rtheme\Inc\Rtheme;
+use Rtheme\Inc\Rtheme;
 
 
 if ( !defined( 'RTHEME_DIR_PATH' ) ) {
