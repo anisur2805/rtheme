@@ -65,6 +65,7 @@ get_header();
 		echo "</div>"; // PRIMARY
 	
 	// Partner Logo 
+	echo "<h3>Beautiful Partner Logos</h3>";
 	get_template_part("template-parts/partner", "logos");
 	// get_template_part( 'template-parts/content', get_post_format() );
 
